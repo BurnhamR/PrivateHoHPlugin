@@ -1,0 +1,89 @@
+ name: PrivateHideOrHunt
+ version: 1.0.0
+ api-version: 1.16
+ main: com.HideOrHunt.HideOrHunt
+
+ commands:
+   config:
+     description: Options to List or Reload the current config
+   givekit:
+     description: Gives a kit to a certain player
+   givebeacon:
+     description: Gives the beacon to a certain player
+   gamemode:
+     description: Set the gamemode for a player
+     aliases: [gm]
+   gamemodeall:
+     description: Set the gamemode for all
+     aliases: [gmall]
+   gamesettings:
+     description: Modify the game settings
+     aliases: [gameset, gs]
+   teamteleport:
+     description: Teleports to a team
+     aliases: [tteleport]
+   resetplayer:
+     description: Resets a players data
+   resetdata:
+     description: Resets the server data
+   team:
+     description: Access team-based commands
+   viewteams:
+     description: Views current teams
+     aliases: [vt, seeteam, teams]
+   setteamtype:
+     description: Set the Type of Teams
+     aliases: [teamtype]
+   setteamcount:
+     description: Set the Total Number of Teams
+     aliases: [teamcount]
+   setteamname:
+     description: Set the Team Name Settings
+     aliases: [teamname]
+   setmobspawn:
+     description: Set the Types of Mobs that can Spawn
+     aliases: [mobspawn]
+   setmobbreed:
+     description: Set the Type of Mobs that can Breed
+     aliases: [mobbreed]
+   setmobtame:
+     description: Set the Type of Mobs that can be Tamed
+     aliases: [mobtame]
+   setweather:
+     description: Sets the Weather
+     aliases: [weather]
+   setmessages:
+     description: Set the Visibility of Entry Messages
+     aliases: [messages, entrymessages, deathmessages]
+   setkits:
+     description: Modifiy Game Kits
+     aliases: [kits, editkits]
+   setslowfall:
+     description: Sets the Slowfall Settings
+     aliases: [slowfall]
+   setinvisibility:
+     description: Sets the Invisibility Settings
+     aliases: [setinvis, invisibility, invis]
+   setpeace:
+     description: Sets the Peace Settings
+     aliases: [setpvp, peace, pvp]
+   setexplodeblacklist:
+     description: Sets the Explode Blacklist Settings
+     aliases: [setexplode, explodeblacklist]
+   setbeacon:
+     description: Sets the Beacon Settings
+     aliases: [beacon]
+   setdeath:
+     description: Sets the Death Settings
+     aliases: [death]
+   startgame:
+     description: Starts the game
+   border:
+     description: Sets the border of the world
+     aliases: [worldborder, worldsize]
+   togglebossbar:
+     description: Disables/Enables the Boss Bar
+     aliases: [bossbar]
+   setadminmode:
+     description: Sets your status as admin 
+     aliases: [setadmin]
